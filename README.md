@@ -9,8 +9,7 @@ Given assumptions are:
   
 **First Stage of Implementation - MinTreeHeap & MaxTreeHeap Classes**'
 
-1)
-I created class called *MinTreeHeap* (MinTreeHeap.java).
+1) I created class called *MinTreeHeap* (MinTreeHeap.java).
 This class represents a minimum heap and includes the following methods:
 * *public static MinTreeHeap BuildHeapT(int[] A):* Takes an array A of size n and returns a MinTreeHeap object where the keys are the minimums of the array A. Required complexity: O(n).
 * *public void HeapInsert(int k):* Method that inserts an item with key k into the heap. Note that there is no upper limit to the number of items that can be inserted. Required complexity: O(log(n)).
@@ -18,8 +17,7 @@ This class represents a minimum heap and includes the following methods:
 * *public void printByLayer(DataOutputStream out):* This method takes a reference to a DataOutputStream object and prints the keys of the heap's elements, layer by layer, under the following requirements:
   Print keys of elements that belong to the i-th level of the heap in the i+1-th line of the output stream. Keys of elements at the same level are separated by commas. The keys for each level are printed from       left to right.
 
-2)
-*MaxTreeHeap Class* (MaxTreeHeap.java):
+2) *MaxTreeHeap Class* (MaxTreeHeap.java):
 This class represents a maximum heap and includes methods similar to those in the MinTreeHeap class, adjusted for maximum heap operations.
 
 
